@@ -7,13 +7,8 @@ import org.springframework.stereotype.Service
 class ChatService ( private val claudeClient: ClaudeClient
 ){
     fun respond(
-        question: String,
-        context: String,
-        model: String,
-        temperature: Double,
-        maxTokens: Int
+        question: String
     ): String {
-
         return "Response from Claude"
     }
 }
