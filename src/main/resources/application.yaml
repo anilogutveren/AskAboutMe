@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: askAboutMe
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: user
+    password: pwd
+    driver-class-name: org.postgresql.Driver
+  session:
+    jdbc:
+      initialize-schema: always
+  jpa:
+    hibernate:
+      ddl-auto: none
+    database: postgresql
